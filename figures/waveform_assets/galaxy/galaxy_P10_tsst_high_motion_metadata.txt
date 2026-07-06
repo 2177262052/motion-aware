@@ -1,0 +1,11 @@
+dataset=galaxy
+fold_subject=P10
+manifest=manifests_loso_val_20s\galaxy_P10_loso_val.csv
+dataset_index=9
+subject_id=P10
+session=tsst-prep
+group_name=stress
+label=1
+window_start_ms=1711417709382
+window_end_ms=1711417729382
+signals=PPG/BVP, ACC x, ACC y, ACC z, E4 BVP, Polar ECG

@@ -1,0 +1,11 @@
+dataset=wesad
+fold_subject=S2
+manifest=artifacts\wesad\manifests_loso_val_20s\wesad_S2_loso_val.csv
+dataset_index=143
+subject_id=S2
+session=stress
+group_name=stress
+label=1
+window_start_ms=2573546
+window_end_ms=2593546
+signals=PPG/BVP, ACC x, ACC y, ACC z, Chest ACC x, Chest ACC y, Chest ACC z, ECG, EMG, EDA, Temp, Resp

@@ -1,0 +1,18 @@
+project_name: stress_ssl_distill
+dataset_root: d:\新建文件夹 (4)\wearable-device-dataset-from-induced-stress-and-structured-exercise-sessions-1.0.1
+manifest_dir: d:\新建文件夹 (4)\artifacts\manifests
+checkpoint_dir: d:\新建文件夹 (4)\artifacts\checkpoints
+modalities:
+  - BVP
+  - ACC
+target_sr: 64
+window_s: 30
+stride_s: 10
+fewshot_shots_per_class:
+  - 1
+  - 5
+  - 10
+notes:
+  - Conservative binary setup: baseline vs explicit stress-task intervals only
+  - Teacher objective: masked reconstruction + instance contrastive consistency + subject-adversarial regularization
+  - Student distillation: feature matching + relational distillation
